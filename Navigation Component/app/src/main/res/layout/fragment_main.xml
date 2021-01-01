@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/parentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.jetpackio.navigationmaster.MainFragment">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDestA1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Destination - Alternative 1"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDestA2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Destination - Alternative 2"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDestA3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Destination - Alternative 3"
+            />
+
+
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_dest1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Destination 1- anim"
+            />
+
+
+
+      <com.google.android.material.button.MaterialButton
+            android:layout_marginTop="20dp"
+            android:id="@+id/btnNavGraphHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nav Home - Nested Graph"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_marginTop="20dp"
+            android:id="@+id/btnPassData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pass Data"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_marginTop="20dp"
+            android:id="@+id/navigationView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Navigation and Bottom view"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_marginTop="20dp"
+            android:id="@+id/viewPager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Pager"
+            />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

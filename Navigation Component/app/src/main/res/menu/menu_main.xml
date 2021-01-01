@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/dest_page1"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="Page 1 "
+            app:showAsAction="ifRoom"/>
+    <item
+            android:id="@+id/dest_page2"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Page 2 "
+            app:showAsAction="ifRoom"/>
+    <item
+            android:id="@+id/dest_page3"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="Page 3 "
+            app:showAsAction="ifRoom"/>
+</menu>

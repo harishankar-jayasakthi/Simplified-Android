@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/dest_page1">
+
+    <fragment
+        android:id="@+id/dest_page1"
+        android:name="com.jetpackio.navigationmaster.FragmentPage1"
+        android:label="Page 1"
+        tools:layout="@layout/fragment_page1" />
+    <fragment
+        android:id="@+id/dest_page2"
+        android:name="com.jetpackio.navigationmaster.FragmentPage2"
+        android:label="Page 2"
+        tools:layout="@layout/fragment_page2" />
+    <fragment
+        android:id="@+id/dest_page3"
+        android:name="com.jetpackio.navigationmaster.FragmentPage3"
+        android:label="Page 3"
+        tools:layout="@layout/fragment_page3" />
+
+    <fragment
+        android:id="@+id/dest_page_test"
+        android:name="com.jetpackio.navigationmaster.FragmentDestination"
+        android:label="Page Test"
+        tools:layout="@layout/fragment_page3" />
+</navigation>
